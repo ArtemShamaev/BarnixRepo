@@ -1,0 +1,4 @@
+# Build leftovers (packages/ holds the published ELF files)
+programs/*/elf/
+.bdk-*
+__pycache__/

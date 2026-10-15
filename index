@@ -1,0 +1,10 @@
+# Barnix repository v1: name|version|file|size|sha256|description|description.ru
+fireworks|1.0|packages/fireworks.elf|31916|c014a26eda8bde94b64345956d6f8105e5fb0de52bd743ffd61ceb3a89452b66|Fireworks over a night town|Салют над ночным городом
+g2048|1.0|packages/g2048.elf|32148|43eae6e0102672fe48963a532b82f80567718f70de307b4bbfac8274c7df00fa|2048: slide and merge the tiles|2048: сдвигай и складывай плитки
+gousesay|1.0|packages/gousesay.elf|10900|89db8b262282c0795313b84e089babbc5c27f1311624c339d11ab6e5fbf4d302|A goose says your words (like cowsay)|Гусь говорит твои слова (как cowsay)
+gsnake|1.1|packages/gsnake.elf|36636|994d691d02dd82ede72c1af3868d5659bfbec739754ce4dd7e3683a450e84281|Snake in the style of Happy Gouse|Змейка в стиле Весёлого Гуся
+life|1.0|packages/life.elf|27924|629a5608e4581dc9eb37142e2f6ef776181af916d9e41d8e6b4fa788df922b1f|Conway's Game of Life: draw with the mouse|Игра «Жизнь» Конвея: рисуй мышью
+magic8|1.0|packages/magic8.elf|10524|cd684af8c93e269406360ee05ce9fdcca6f5eda438c059b005e6e01db600da9a|Magic 8 ball answers your questions|Волшебный шар отвечает на вопросы
+matrix|1.0|packages/matrix.elf|18644|a2bfe615bc55684b98c0de88f26c1a3391f4b0aa7368c5d1ca4c6183664e1cef|The falling green code of the Matrix|Зелёный дождь из «Матрицы»
+sl|1.0|packages/sl.elf|10112|f7ebb3af56e2558704db14b4d952d67722923b403ccd1584286cce50eb1b1469|Steam locomotive for those who typed sl|Паровоз для тех, кто набрал sl вместо ls
+tetra|1.0|packages/tetra.elf|36780|7f497b532cc73ff6b766420c8c0f6c2d855e5604988cd2e0e2a62686ce406be2|Falling blocks with Korobeiniki music|Тетрис под «Коробейников»
