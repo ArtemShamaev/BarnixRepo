@@ -1,0 +1,64 @@
+# Barnix repository v2: name|version|file|size|sha256|description|description.ru|category|flags|installed KiB
+fireworks|1.0|packages/fireworks.elf|31916|0ef2053ea86a46c03485fff2b7b8a2b401040fc0e906557b06d106a3b895c75e|Fireworks over a night town|Салют над ночным городом|games||32
+g2048|1.0|packages/g2048.elf|32148|5029819e6d8edfc2fc2f15643f5d8393e384172057c60b9023c88d528ab42e82|2048: slide and merge the tiles|2048: сдвигай и складывай плитки|games||32
+gousesay|1.0|packages/gousesay.elf|10900|44166bbdfa1bd7b659cfb3712eb25a2b1c2d052a6a3c67d5635a7f43c92c0792|A goose says your words (like cowsay)|Гусь говорит твои слова (как cowsay)|apps||11
+gsnake|1.1|packages/gsnake.elf|36636|8c1f3f8b9a5dd7e9f0986a2b75375d6745953aa1b4266f538538637eb04298b1|Snake in the style of Happy Gouse|Змейка в стиле Весёлого Гуся|games||36
+life|1.0|packages/life.elf|27924|d1486a03b472f1f4aebe0d6b1fb02fb7ead505a30a97dee8ad748f102dd719e7|Conway's Game of Life: draw with the mouse|Игра «Жизнь» Конвея: рисуй мышью|games||28
+magic8|1.0|packages/magic8.elf|10524|25e44631dfa44562bee567e3ac74a57e2d3dfb0f86217c582c8ef9c05e8b2ded|Magic 8 ball answers your questions|Волшебный шар отвечает на вопросы|apps||11
+matrix|1.0|packages/matrix.elf|18644|40a65abe87b7b6941837e45d5fddb3d447292ea5d1ea043d405354a8e922fb9a|The falling green code of the Matrix|Зелёный дождь из «Матрицы»|apps||19
+sl|1.0|packages/sl.elf|10112|491340623a6efa25c70f44cbda8e2600b3ee775ccb21b1de75479eb52c7e77d3|Steam locomotive for those who typed sl|Паровоз для тех, кто набрал sl вместо ls|apps||10
+tetra|1.0|packages/tetra.elf|36780|a46c79830d51b724ac0c1bd50f6a0d75aec4663b9ffb4a4a58da55daedf75666|Falling blocks with Korobeiniki music|Тетрис под «Коробейников»|games||36
+append|0.3.20261106.0551|packages/system/append.elf|9052|567291c00107cc51d38e58b6a97529154d0c76c7fbca618dae38c7112878c895|Append text to a file|Дописать текст в файл|system|base,essential|9
+barnocraft|0.3.20261106.0551|packages/system/barnocraft.elf|160504|a8bfb973656160f58f1e6a32d2031872670ef81b241e8f295d04f18ee4368926|Barnocraft: a voxel world to build in|Barnocraft: воксельный мир, где можно строить|games|base|157
+bcc|0.3.20261106.0551|packages/system/bcc.elf|34708|c231c02c1e834f2a20d77a73530757a832b35382efcb9e5ca67b2b95783e927f|BCC, the tiny self-hosted C compiler|BCC, маленький компилятор C прямо в Barnix|devel|base|34
+beep|0.3.20261106.0551|packages/system/beep.elf|17692|58326bee782045ef7172f16c829a514b43d1c6a9a06ef253e172402e3daba061|Play a tone on the speaker or sound card|Сыграть звук на динамике или звуковой карте|multimedia|base|18
+bnm|0.3.20261106.0551|packages/system/bnm.elf|22472|f943e1290b6fbb524a04b847593d899216a83f821822137eefc085a69f259828|Barnix Network Manager: cable and Wi-Fi|Сетевой менеджер Barnix: кабель и Wi-Fi|network|base|22
+brm|0.3.20261106.0553|packages/system/brm.elf|101292|af278193fb350c7bb7bd8a95a11307bb293a81305cb10aa59b107aae8d76d6f4|Barnix Repository Manager (this program)|Менеджер пакетов Barnix (эта программа)|system|base,essential|99
+cat|0.3.20261106.0551|packages/system/cat.elf|9124|453e23148cface4966ba277b7b2377f7e7c474cbb150f3a950a7764fff404960|Show a file|Показать файл|system|base,essential|9
+cd|0.3.20261106.0551|packages/system/cd.elf|18128|0f0668672a6df2cd3d400c5c59c4c753b761aed8b5e01cf9e57fd102685952d9|Change the folder|Сменить папку|system|base,essential|18
+chmod|0.3.20261106.0551|packages/system/chmod.elf|18132|0cfbdbfb525e6ce2efc2c5355f4840dfee5529de248794ecdfbe0457a79131f2|Give users rights to files|Выдать пользователям права на файлы|system|base,essential|18
+clear|0.3.20261106.0551|packages/system/clear.elf|18104|19f65f745ae807bd2d044860d984210200f684cbd7dd94c81c5f7cd280c67b51|Clear the screen|Очистить экран|system|base,essential|18
+cp|0.3.20261106.0551|packages/system/cp.elf|9232|a00b9f77cf719653615006d24c2d83fd9d7e04557588a5604efbb3a354d17150|Copy files|Копировать файлы|system|base,essential|10
+devices|0.3.20261106.0551|packages/system/devices.elf|18104|1f34162948f39c13f29d6f9afab37772372ecc0bd3bb92e366cec1f1fa55f427|Disks, mice, keyboards and network cards|Диски, мыши, клавиатуры и сетевые карты|system|base|18
+df|0.3.20261106.0551|packages/system/df.elf|18100|9afd33a9656a56089175793c3abc14ba55161e2ca949354a8bead59400f5e99e|Free space on the disks|Свободное место на дисках|system|base|18
+diskinfo|0.3.20261106.0551|packages/system/diskinfo.elf|18104|0aeb23036ecd3efd34f824c05ecf2ea129a6b23ab8e2d0076c6c0cfa518993b1|Information about the disk|Сведения о диске|system|base|18
+echo|0.3.20261106.0551|packages/system/echo.elf|8940|5ed1643f9f23c122ee8def3b4ff8ec4815179659ecb6cc676348bf0c863bb167|Print text|Напечатать текст|system|base,essential|9
+execute|0.3.20261106.0551|packages/system/execute.elf|19424|607a80f6983c51df47df27279b7662b9aea6a04f9e5bd8d76c1f45a0a86fba06|Execute: the text-mode program launcher|Execute: текстовое меню программ|desktop|base|19
+false|0.3.20261106.0551|packages/system/false.elf|8848|42bec576e8bec64e21ab51873ec977bf0bf125692f665e104ef4cd6ed7b52341|Exit with status 1|Завершиться с кодом 1|system|base,essential|9
+fdisk|0.3.20261106.0551|packages/system/fdisk.elf|18104|a54ce8b8e39549e3b8d8b61d0ce3c75404d8e58be31ec651edc28ed3f9d4b71a|Partition a disk|Разметить диск на разделы|system|base|18
+format|0.3.20261106.0551|packages/system/format.elf|18132|48cef9264bd49cfd55380bc39a6134bc0d1b1b31cef74b110c5392130c9b565d|Make an ext2 filesystem|Создать файловую систему ext2|system|base|18
+get|0.3.20261106.0551|packages/system/get.elf|75096|5ae62b41bd4beda344c5f4aa91b9e4e71ef6b2ff67327bf7e5f8d0c6e7047b26|Download a file over HTTP or HTTPS|Скачать файл по HTTP или HTTPS|network|base|74
+git|0.3.20261106.0551|packages/system/git.elf|79712|5c4ad6918f4544698ee2d1a12f6511b16ebeea8db1975d21fcd60dcc85943d42|git clone over HTTPS|git clone по HTTPS|devel|base|78
+gldemo|0.3.20261106.0551|packages/system/gldemo.elf|72104|d04de2c7655edee60a0ca175540173eeaf7dda081f6f19be06f1ca0bf70653e9|OpenGL demo: a spinning scene|Демо OpenGL: вращающаяся сцена|graphics|base|71
+glrunner|0.3.20261106.0552|packages/system/glrunner.elf|72136|e9d0d3a78338729264e3f3e6c73cb30ce68250a391ed7be177f15e4e77f1c726|GL Runner: a 3D endless runner|GL Runner: трёхмерный бегун|games|base|71
+gouse|0.3.20261106.0553|packages/system/gouse.bpz|934680|992c65a77111c04f65dc2d0ab5582ab07b12d4fb931676c68210c827f7deead8|Happy Gouse: windows, Gouse Web, IDE, BarnStore, games and manuals|Весёлый Гусь: окна, Гусь.Веб, IDE, BarnStore, игры и справочник|desktop|base|1788
+help|0.3.20261106.0552|packages/system/help.elf|18100|3a8ae9ec1f9efaf882ea4f99b9c729dfda1df9968844a69e7ffa39ed9f000e3e|Shell commands|Команды оболочки|system|base,essential|18
+init|0.3.20261106.0552|packages/system/init.elf|18100|de52b45031d9a6b13d4eceeb490db309341c25364bc857d0913e94221bb7697d|Prepare a new disk for Barnix|Подготовить новый диск для Barnix|system|base,essential|18
+java|0.3.20261106.0552|packages/system/java.elf|1043244|bba0b02e43c4b82ae168c1fd6845d651d98af460f73d799b7d58e82b7b054486|BJVM: the Java virtual machine for JAR files|BJVM: виртуальная машина Java для JAR-файлов|devel|base|1019
+ls|0.3.20261106.0552|packages/system/ls.elf|9092|7da1d8db87c045c76987d79906d2502379eedcc4ed23abfbff6f08414d7b66de|List files|Список файлов|system|base,essential|9
+macro|0.3.20261106.0552|packages/system/macro.elf|18488|1b8c327dc0c95f2338ac38e7ad7fb3b91bf9224017ef73a20c6eed377dd742a0|Macro: the text editor of the shell|Macro: текстовый редактор оболочки|devel|base|19
+mkdir|0.3.20261106.0552|packages/system/mkdir.elf|18132|dda7ea4c61b761f15b1f49aca1885a96d14d24726e86dc8f5e3b85b1dc19e526|Make a folder|Создать папку|system|base,essential|18
+mount|0.3.20261106.0552|packages/system/mount.elf|18132|ba2efa0440917aefbfc94aca191f770a8ea9eb7b25acc8b3c38189550cc920c5|Attach a disk or USB stick|Подключить диск или флешку|system|base,essential|18
+mv|0.3.20261106.0552|packages/system/mv.elf|18128|b8572835cc0fce1f16f28a8a2dab60ebb70e36803364a51e896421ba94b6b863|Move or rename files|Переместить или переименовать файлы|system|base,essential|18
+nova|0.3.20261106.0552|packages/system/nova.elf|18192|21dd2c45606ca4ae3418f932c04c14b080758943162f74ae3d4b73b609eae600|Nova: run Nova programs on BJVM|Nova: запуск программ на языке Nova в BJVM|devel|base|18
+paint|0.3.20261106.0552|packages/system/paint.elf|22568|efc34b1be46380a0f40e5f5c877bda257c9ba19ee24971dfa955be8b0bcd90f3|Paint for the text screen|Рисовалка для текстового экрана|graphics|base|23
+panic|0.3.20261106.0552|packages/system/panic.elf|18104|0813a24f0e27c69d7bcc7b918b48c6e29467945c6483aa2829eba728cf3e6bba|Stop the system (for testing)|Остановить систему (для проверки)|system|base|18
+play|0.3.20261106.0552|packages/system/play.elf|17776|fd7c963f76613a825920999eddc4d616d86183abc5fc38d2e055c636ea08f216|Play a WAV file|Проиграть WAV-файл|multimedia|base|18
+pong|0.3.20261106.0552|packages/system/pong.elf|42584|ec8b64befffc7c82beed01eabd708ae5a45932d9915e4bb7bd35a7ec2c4f5a25|Pong for two players or against the computer|Пинг-понг вдвоём или с компьютером|games|base|42
+pwd|0.3.20261106.0552|packages/system/pwd.elf|9016|d28b3b32f5821312ed3c21378c37d15972a47453a39edd12d305598eca6b4486|Show the current folder|Показать текущую папку|system|base,essential|9
+rm|0.3.20261106.0552|packages/system/rm.elf|18128|a4a4ed03a6d2fec062e1f00273c187ac977ade1742eb1eece24691a53b975629|Delete files|Удалить файлы|system|base,essential|18
+rmdir|0.3.20261106.0552|packages/system/rmdir.elf|18132|d3148c28b6c6373505336a322c9a04f169d03d5d70b8e279fad6af6ea7f7aaf8|Delete an empty folder|Удалить пустую папку|system|base,essential|18
+snake|0.3.20261106.0552|packages/system/snake.elf|42736|dbff7e1f72f4d6272b0514ee29b3568f0a2d9756d8f61b8200618e871ed446a1|Snake in the text screen|Змейка на текстовом экране|games|base|42
+stat|0.3.20261106.0552|packages/system/stat.elf|18128|313dfd372e246f408117e589b0c55812001ce35f928dd64db0ad816ebc985eae|File details|Сведения о файле|system|base,essential|18
+su|0.3.20261106.0552|packages/system/su.elf|18100|0662328dacedc28597e293078e5847fbff050d704b3b5a61b7a584a1b328275c|Become another user|Войти другим пользователем|system|base,essential|18
+sudo|0.3.20261106.0552|packages/system/sudo.elf|18100|57a345fdee0429f2b3f51de7abc266e042c1ee2ac26c126ab2e92a8bad128931|Run a command as root|Выполнить команду от имени root|system|base,essential|18
+sync|0.3.20261106.0552|packages/system/sync.elf|18100|d0f4cecc9b971f0e408c761f76d5dcd0f23294f6948deec40b82a5b0ccf308df|Write everything to the disk|Записать всё на диск|system|base,essential|18
+theme|0.3.20261106.0552|packages/system/theme.elf|18132|4d059aa812cb75a83d58ae38bc9c6699a8e2017a988a38772b391f9d06abdf62|Colors of the text screen|Цвета текстового экрана|desktop|base|18
+touch|0.3.20261106.0552|packages/system/touch.elf|9036|34286c03ae4f81e7c161f08b944d4087074a5f5894bda181d810a7b98cd7752e|Make an empty file|Создать пустой файл|system|base,essential|9
+true|0.3.20261106.0552|packages/system/true.elf|8848|335291b26622b2c0000bf79b6b14efdcacb7877e7e4d0da49abe3fcb50aaa898|Exit with status 0|Завершиться с кодом 0|system|base,essential|9
+unmount|0.3.20261106.0552|packages/system/unmount.elf|18132|c5794da075a1ea109dd59889449a8c8dd577f7f33bbb330b909b1fd9e3d200fe|Detach a disk|Отключить диск|system|base,essential|18
+useradd|0.3.20261106.0552|packages/system/useradd.elf|18104|182b15fe4f2260d16ede0cc93322c83adc7147e21c1e2d6f9e11902ca18c027d|Add a user|Добавить пользователя|system|base,essential|18
+whoami|0.3.20261106.0552|packages/system/whoami.elf|18104|cd31a11116338009774ff3b6c2faab1f2ca04d2c198aa630a751497f99d103a9|Show the current user|Показать текущего пользователя|system|base,essential|18
+write|0.3.20261106.0552|packages/system/write.elf|9040|527d4725f84e471220804c31bea9a9b4d924a376ec783ac81060f135a99c872e|Write text to a file|Записать текст в файл|system|base,essential|9
+examples|0.3.20261106.0551|packages/system/examples.bpz|67003|b14f133f49a90e46a39cf69613a329e06dd700457b300b173da373890e08e5e0|Example programs: hello, fileio, asciiart, fortune...|Примеры программ: hello, fileio, asciiart, fortune...|devel|base|256
+gcc|0.3.20261105.1224|packages/system/gcc.bpz|59107790|00e612bcf16ec05bdd3994c5482ce8c077acaa9d90877e5e1698fb3dc5cf19e1|GCC 16.2.0: C and C++ compiler with glibc and libstdc++|GCC 16.2.0: компилятор C и C++ с glibc и libstdc++|devel|base|178341
