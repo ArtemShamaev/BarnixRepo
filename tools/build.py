@@ -8,7 +8,7 @@ programs/NAME/src/main.c       the source (BARNIX_APP_NAME "NAME.elf")
 programs/NAME/package.info     version=, description=, description.ru=, category=
 
 index  (brm 1): NAME|VERSION|packages/NAME.elf|SIZE|SHA256|DESCRIPTION|DESCRIPTION_RU
-index2 (brm 2): the same, then CATEGORY|FLAGS|INSTALLED_KIB; system packages too
+index2 (brm 2): the same, then CATEGORY|FLAGS|INSTALLED_KIB|FILES; system packages too
 
 GCC comes from ~/Barnix/live-ext2-gcc.img (BARNIX_GCC_IMAGE=... for another);
 without it the GCC package published last time stays.
@@ -47,7 +47,7 @@ def main():
     packages = ROOT / 'packages'
     packages.mkdir(exist_ok=True)
     lines = ['# Barnix repository v1: name|version|file|size|sha256|description|description.ru']
-    lines2 = ['# Barnix repository v2: name|version|file|size|sha256|description|description.ru|category|flags|installed KiB']
+    lines2 = ['# Barnix repository v2: name|version|file|size|sha256|description|description.ru|category|flags|installed KiB|files']
     for project in sorted(p for p in (ROOT / 'programs').iterdir() if (p / 'package.info').exists()):
         name = project.name
         if not re.fullmatch(r'[a-z0-9][a-z0-9_-]{0,17}', name):
@@ -64,7 +64,7 @@ def main():
         line = '|'.join([name, fields['version'], f'packages/{name}.elf', str(len(data)), digest,
                          fields['description'], fields['description.ru']])
         lines.append(line)
-        lines2.append('|'.join([line, fields.get('category', 'apps'), '', str((len(data) + 1023) // 1024)]))
+        lines2.append('|'.join([line, fields.get('category', 'apps'), '', str((len(data) + 1023) // 1024), '1']))
         print(f'{name:12} {fields["version"]:6} {len(data):7} bytes')
     (ROOT / 'index').write_text('\n'.join(lines) + '\n', encoding='utf-8')
     print(f'index: {len(lines) - 1} packages')
